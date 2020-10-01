@@ -1,0 +1,266 @@
+/*==============Mobile first==============*/
+
+@media only screen and (min-width: 320px){
+
+  .banner{
+    position: static;
+    background-position: right;
+
+  }
+  .isadora-logo{
+    margin-left: 7%;
+    margin-top: 8%;
+  }
+  .btn-menu{
+    width: 54px;
+    height: 54px;
+  }
+  .social-icons-header{
+    padding: 4% 4% 3% 4%;
+  }
+}
+  /**=============MOBILE DEVICE===========**/
+@media only screen and (min-width: 480px){
+  .btn-menu{
+    margin-top: 1%;
+
+  }
+  .social-icons-header a{
+    font-size: 1.5em;
+    margin-right: 6%;
+
+  }
+  .social-icons-header{
+    
+  }
+  .logo{
+    padding: 1%;
+    width: 65px;
+    height: 60px;
+    margin-top: 1%;
+    background:url(../Imagens/Isadora-personal.png) center center/60px no-repeat ;
+  }
+  .banner{
+    height: 120px;
+  }
+  .nomes-banner h2{
+    font-size: 0.8em;   
+  }
+  .newsletter button{
+    font-size: 1.5em;
+  }
+  .newsletter input{
+    font-size: 1.5em;
+    color: #fff;
+  }
+  .isadora-logo{
+    margin-left: 4%;
+  margin-top: 5%;
+  }
+}
+/**=============TABLET DIVICE===========**/
+@media only screen and (min-width: 768px){
+  
+  .servico{
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+    
+  }
+  .servico:nth-child(2){
+    margin-right: 0;
+  }
+  .servico img{
+    height: 228px;
+  }
+  .container{
+    position: relative;
+    height: 76px;
+  }
+  .social-icons-header{
+    position: absolute;
+    top: 0px;
+    left: 108px;
+  }
+  .logo{
+    position: absolute;
+    top: 4px;
+  }
+  .btn-menu{
+    position: absolute;
+    right: 2%;
+    top: 3%;
+  }
+  .banner{
+    height: 200px;
+
+  }
+  .isadora-logo{
+    margin-top: 7%;
+  }
+  .nomes-banner h2{
+    font-size: 1.3em;
+  }
+  .newsletter button{
+    padding: 2%;
+    width: 29%;
+    float: right;
+    margin-top: 0;
+    font-size: 1.8em;
+  }
+  .newsletter input{
+    padding: 2%;
+    width: 70%;
+    float: left;
+    font-size: 1.8em;
+    color: #fff;
+  }
+  .newsletter h3{
+    font-size: 1.5em;
+  }
+  .newsletter h2{
+    font-size: 3em;
+  }
+  
+}
+/**=============MEDIUM DEVICE===========**/
+@media only screen and (min-width: 960px){
+  .servico{
+    width: 32%;
+  }
+  .servico:nth-child(2){
+    margin-right: 2%;
+  }
+  .servico:nth-child(3){
+    margin-right: 0;
+  }  
+  .servico img{
+    height: 228px;
+  }
+  .social-icons-header {
+    
+    top: -8px;
+    left: 150px;
+}
+.isadora-logo{
+  margin-top:6%
+  
+}
+.banner{
+  height: 250px;
+}
+.nomes-banner h2{
+  font-size: 1.6em;
+}
+
+}
+/**=============desktop===========**/
+
+@media only screen and (min-width: 1280px){
+  .container{
+    padding: 0 1%;
+  }
+  
+  
+  .banner{
+    position: static;
+    height: 300px;  
+  }
+  .btn-menu{
+    display: none;
+  }
+  .btn-close{
+    display: none;
+  }
+  .menu{
+    width: auto;
+    height: 76px;
+    line-height: 76px;
+    float: right;
+    background-color: #3c3a3a;
+    display: block !important;
+    position: static;
+    margin-top: -76px;
+    border-radius: 10px;
+  }
+.menu li{
+  border-radius:10px;
+  
+  padding: 0;
+  float: left;
+
+}
+.menu li a {
+  
+  
+  color: #fff;
+  font-size: 1em;
+  padding: 15px;
+}
+.social-icons-header{
+  width: 40%;
+  top: 41px;
+  padding: 1%;
+  left: 15%;
+  height: 73px;
+}
+.logo{
+  top: 35px;
+}
+.container{
+  position: static;
+}
+.menu li a:hover{
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.5s;
+  background-color: #ffae0056;
+  
+  
+  
+}
+.isadora-logo{
+  background:linear-gradient(to right,#d44d2400,#ffae0000);
+  margin-top:5%;
+}
+.nomes-banner{
+  font-size: 1.2em;
+  
+}
+.nomes-banner h2{
+  line-height: 1.9em;
+}
+.social-icons-header a{
+  line-height: 2em;
+}
+.servicos img{
+  width: 100%;
+  
+}
+  
+}
+/**info section**/
+
+.info{
+  width: 100%;
+  text-align: left;
+  clear: both;
+  float: left;
+  height: 250px;
+}
+.info img{
+  width: 40%;
+ float: left;
+ padding: 1%;
+ height: 200px;
+}
+.info h2 p{
+  float: left;
+  
+}
+.info-saude img{
+  float: right;
+}
+.info-saude h2 p{
+  float: right;
+}
